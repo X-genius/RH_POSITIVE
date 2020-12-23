@@ -1,0 +1,32 @@
+input{
+    width: 280px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px 0 20px 0;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgb(161, 161, 161);
+    font-family: poppins,sans-serif;
+}
+input::placeholder{
+  color: rgb(179, 178, 178);
+}
+.guide-input{
+    font-size: 15px;
+    padding: 20px;
+}
+.registration-input{
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+.registration-input::placeholder{
+  color: rgb(34, 30, 30);
+}
+
+@media screen and (max-width:960px){
+  .registration-input{
+    width: 250px;
+    padding: 13px;
+  }
+}

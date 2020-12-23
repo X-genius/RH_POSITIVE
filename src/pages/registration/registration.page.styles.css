@@ -1,0 +1,175 @@
+.container1 {
+  width: 100%;
+  height: 100vh;
+}
+.registration-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 0 0;
+}
+.registration-container .image-container {
+  width: 50%;
+}
+.registration-container .image-container img {
+  width: 600px;
+  height: 350px;
+  position: absolute;
+  top: 35%;
+  left: 80px;
+}
+.registration-container .details {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.details .form {
+  position: relative;
+  left: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 400px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.details .heading {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.input {
+  width: 280px;
+  font-size: 20px;
+  margin: 0px 0 20px 0;
+  outline: none;
+  border: 2px solid rgb(161, 161, 161);
+  font-family: poppins, sans-serif;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+input[type="date"] {
+  padding: 30px 10px 30px 20px;
+}
+.input::placeholder {
+  color: rgb(34, 30, 30);
+}
+.form small {
+  margin: -20px 0 15px 3px;
+}
+.address-input {
+  height: 1100px;
+}
+.radio-buttons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 0 20px 10px;
+}
+.checkbox-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.checkbox-container1 {
+  margin: 0 20px 0 15px;
+}
+.form p {
+  max-width: 400px;
+}
+.image-input {
+  padding-bottom: 40px;
+}
+.form button {
+  background-color: #fe1f1a;
+  color: #fff;
+  font-size: 24px;
+  outline: none;
+  border: none;
+  margin: 20px 0 20px 30px;
+}
+@media screen and (max-width: 960px) {
+  .registration-container {
+    padding: 20px 0 0px 0;
+  }
+  .registration-container .image-container {
+    width: 0%;
+    display: none;
+  }
+  .registration-container .image-container img {
+    width: 0;
+    left: 0;
+  }
+  .registration-container .details {
+    width: 100%;
+  }
+  .form small {
+    margin-left: -28px;
+  }
+  .details .form {
+    left: 0px;
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    overflow: none;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .input {
+    width: 250px;
+  }
+  .form p {
+    max-width: 300px;
+    text-align: start;
+  }
+  .checkbox-container1,
+  .checkbox-container1,
+  .checkbox-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+  }
+  .checkbox-container {
+    margin: -10px 0 0 -30px;
+    padding: 0 0 30px 0;
+  }
+  .radio-buttons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .checkboxContainer {
+    margin-left: -100px;
+    margin-top: -20px;
+  }
+  .form button {
+    margin: 20px 0 50px 0;
+  }
+  .radioButtons {
+    margin-left: 25px;
+  }
+  .radiobuttons1 {
+    margin-left: -40px;
+  }
+  .radiobuttons2 {
+    margin-left: -130px;
+  }
+  .radiobuttons3 {
+    margin-left: -150px;
+  }
+  .statement {
+    margin-left: -140px;
+  }
+  .statement1 {
+    margin-left: -40px;
+  }
+}

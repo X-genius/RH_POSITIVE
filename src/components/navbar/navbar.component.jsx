@@ -10,7 +10,7 @@ import logo from '../../assets/logo.png';
 
 import { Link } from 'react-router-dom';
 
-import Registration from '../../pages/registration/registration.page';
+// import Registration from '../../pages/registration/registration.page';
 
 class Navbar extends React.Component{
 /*
